@@ -34,6 +34,8 @@ cookiecutter ../. -f --no-input -o ../book/_build
 
 check_success
 
+exit 0
+
 echo "Building the Jupyter Book"
 cd ../
 jupyter-book build book/ --warningiserror --keep-going
