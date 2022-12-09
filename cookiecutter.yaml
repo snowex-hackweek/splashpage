@@ -15,10 +15,10 @@ banner:
   year: 2023
   location: Seattle, WA
   links:
-  - url: https://snowex.hackweek.io/
+  - url: https://snowex-2022.hackweek.io/
     title: 2022 Hackweek
     new_window: true
-  - url: https://snowex-hackweek.github.io/website
+  - url: https://snowex-2021.hackweek.io/
     title: 2021 Hackweek
     new_window: true
   image: https://geohackweek.github.io/assets/images/banner.jpg
