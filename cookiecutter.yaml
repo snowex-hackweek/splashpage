@@ -3,16 +3,11 @@ name: SnowEx Hackweek
 about: Hackweeks are participant-driven events that strive to create welcoming spaces
   for participants to learn new things, build community and gain hands-on experience
   with collaboration and team science
-apply:
-  url: '#'
-  title: Application coming soon
 hackweek_mission: https://uwhackweek.github.io/hackweeks-as-a-service/mission.html
 banner:
   title: SnowEx Hackweek
-  description: An in person, collaborative learning event.
-  start_date: 10 July
-  end_date: 14 July
-  year: 2023
+  description: In person, collaborative learning events.
+  year: ""
   location: Seattle, WA
   links:
   - url: https://snowex-2022.hackweek.io/
@@ -22,8 +17,7 @@ banner:
     title: 2021 Hackweek
     new_window: true
   image: https://geohackweek.github.io/assets/images/banner.jpg
-applicant_info: UW Hackweek 2023 will take place in July 2023 (in-person).
-  Applications have not yet opened, but should be anticipated soon after AGU.
+applicant_info: ""
 team:
   !include book/team.yaml
 schedule:

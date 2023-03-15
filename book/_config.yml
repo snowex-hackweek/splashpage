@@ -1,17 +1,15 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: SnowEx Hackweek 2023
+title: SnowEx Hackweek
 author: eScience Institute, University of Washington
 logo: logo.png
 only_build_toc_files: true
 
 parse:
-  # https://jupyterbook.org/content/content-blocks.html?highlight=myst%20substitution#define-substitutions-for-your-whole-book
-  # https://jupyterbook.org/content/content-blocks.html#using-substitutions-in-links
   myst_substitutions:
     hackweek: "SnowEx Hackweek"
-    dates: "July 10-14 2023"
+    dates: ""
     github_org_url: "https://github.com/snowex-hackweek"
     contact_email: "uwhackweek@uw.edu"
     dataset: "SnowEx"
