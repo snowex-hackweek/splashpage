@@ -43,7 +43,7 @@
                     </a>
                 </div>
 
-                {%- if cookiecutter.apply %}
+                {%- if 'apply' in cookiecutter %}
                 <div class="navbar-btn order-lg-2">
                     <a class="btn btn-secondary"
                        {%- if 'url' in cookiecutter.apply %}
@@ -99,6 +99,7 @@
             <h1 class="hero-heading mb-2">
                 {{ cookiecutter.banner.title }} {{ cookiecutter.banner.year }}
             </h1>
+            {%- if 'start_date' in cookiecutter.banner %}
             <div class="hero-meta mb-3">
                 <i class="far fa-calendar-alt me-2"></i>
                 {{ cookiecutter.banner.start_date }} - {{
@@ -106,6 +107,7 @@
                 <i class="fas fa-map-marker-alt mx-2"></i>
                 {{ cookiecutter.banner.location }}
             </div>
+            {%- endif %}
             <div class="hero-intro mb-4">{{ cookiecutter.banner.description
                 }}
             </div>
@@ -146,6 +148,8 @@
             </a>
         </div>
 
+
+        {%- if 'start_date' in cookiecutter.banner %}
         <div id="countdown-intro" class="event-countdown text-center mb-3">
             <h4 class="countdown-intro mb-2 text-center mb-3">
                 Event Starts In:
@@ -155,10 +159,12 @@
                  data-start-date="{{ cookiecutter.banner.start_date }}/{{ cookiecutter.banner.year}}">
             </div>
         </div>
+        {%- endif %}
     </div>
 
     <div class="media-block theme-bg-primary py-5">
         <div class="container">
+            {%- if 'apply' in cookiecutter %}
             <h4 class="text-white text-center mb-3">
                 Information for Applicants
             </h4>
@@ -166,6 +172,7 @@
                 class="section-intro text-center single-col-max mx-auto text-white mb-5">
                 {{cookiecutter.applicant_info}}
             </div>
+            {%- endif %}
         </div>
     </div>
 </section>
