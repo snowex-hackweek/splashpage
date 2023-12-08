@@ -71,8 +71,7 @@ const spy = new Gumshoe('#navigation a', { offset: yOffset });
 
 // variables for time units
 const counterDiv = document.getElementById("countdown-box");
-const endDate = new Date(counterDiv.getAttribute('data-start-date'));
-let days, hours, minutes, seconds;
+const endDate = new Date(counterDiv?.getAttribute('data-start-date'));
 
 function createCountdownSpans(className) {
   const span = document.createElement("SPAN");
@@ -119,7 +118,7 @@ function startCountDown(counterDiv) {
     // update the counter every 1 second
     setInterval(updateCounter, 1000, counterDiv);
   } else {
-    document.getElementById("countdown-intro").remove();
+    document.getElementById("countdown-intro")?.remove();
   }
 }
 
