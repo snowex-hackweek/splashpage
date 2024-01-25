@@ -1,5 +1,15 @@
+.hero-block {
+    height: 400px;
+}
+
 .header .logo-icon-text {
     font-size: 20px;
     color: #fff;
     font-weight: bold;
+}
+
+@media (width > 1024px) {
+.hero-text-block {
+    max-width: 800px;
+  }
 }

@@ -1,23 +1,34 @@
 repo_directory: html
 name: SnowEx Hackweek
-about: Hackweeks are participant-driven events that strive to create welcoming spaces
-  for participants to learn new things, build community and gain hands-on experience
-  with collaboration and team science
-hackweek_mission: https://uwhackweek.github.io/hackweeks-as-a-service/mission.html
 banner:
-  title: SnowEx Hackweek
   description: In person, collaborative learning events.
   year: ""
   location: Seattle, WA
-  links:
-  - url: https://snowex-2022.hackweek.io/
-    title: 2022 Hackweek
-    new_window: true
-  - url: https://snowex-2021.hackweek.io/
-    title: 2021 Hackweek
-    new_window: true
   image: https://geohackweek.github.io/assets/images/banner.jpg
-applicant_info: ""
+about:
+  description:
+    "We are in early stages to organize a third event as part of this series.
+    Currently we are actively seeking volunteers from the community to help plan
+    and execute the event. There are three possible roles to help out:
+    <ul>
+      <li>Project Coordinator</li>
+      <li>Project Lead</li>
+      <li>Project Helper</li>
+    </ul>
+    Visit the <a target=\"_blank\" href=\"https://escience.washington.edu/using-data-science/hackweeks/hackweek-organizer-training/\">
+    Hackweek Organizer Training page<a/> to learn more about these roles or reach
+    out to us
+    "
+  contact_email: snowex_hackweek@cloud.washington.edu
+  learn_more: https://escience.washington.edu/using-data-science/hackweeks/
+  links:
+    - url: https://snowex-2022.hackweek.io/
+      title: 2022 Hackweek
+      new_window: true
+    - url: https://snowex-2021.hackweek.io/
+      title: 2021 Hackweek
+      new_window: true
+# applicant_info:
 team:
   !include book/team.yaml
 schedule:
