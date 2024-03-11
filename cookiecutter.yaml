@@ -29,7 +29,8 @@ about:
     - url: https://snowex-2021.hackweek.io/
       title: 2021 Hackweek
       new_window: true
-# applicant_info:
+applicant_info:
+  Participant applications have not yet opened and are expected around April 2024.
 team:
   !include book/team.yaml
 schedule:
