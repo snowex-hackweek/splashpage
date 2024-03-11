@@ -2,7 +2,7 @@ repo_directory: html
 name: SnowEx Hackweek
 banner:
   description: In person, collaborative learning events.
-  year: ""
+  year: "August 19-23 2024"
   location: Seattle, WA
   image: https://geohackweek.github.io/assets/images/banner.jpg
 about:
@@ -11,13 +11,13 @@ about:
     Currently we are actively seeking volunteers from the community to help plan
     and execute the event. There are three possible roles to help out:
     <ul>
+      <li>Tutorial Leads</li>
       <li>Project Coordinator</li>
       <li>Project Lead</li>
       <li>Project Helper</li>
     </ul>
-    Visit the <a target=\"_blank\" href=\"https://escience.washington.edu/using-data-science/hackweeks/hackweek-organizer-training/\">
-    Hackweek Organizer Training page<a/> to learn more about these roles or reach
-    out to us
+    Visit the <a target=\"_blank\" href=\"https://escience.notion.site/UW-Hackweek-Organizing-Team-Application-b7e5742a4c7e4cad8b4ece80ee171ab0\">
+    information page<a/> to learn more about this year's event.
     "
   contact_email: snowex_hackweek@cloud.washington.edu
   learn_more: https://escience.washington.edu/using-data-science/hackweeks/
