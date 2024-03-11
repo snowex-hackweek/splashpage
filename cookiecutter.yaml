@@ -2,7 +2,9 @@ repo_directory: html
 name: SnowEx Hackweek
 banner:
   description: In person, collaborative learning events.
-  year: "August 19-23 2024"
+  start_date: 19
+  end_date: 23 Aug
+  year: 2024
   location: Seattle, WA
   image: https://geohackweek.github.io/assets/images/banner.jpg
 about:
