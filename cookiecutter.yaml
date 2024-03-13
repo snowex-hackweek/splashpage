@@ -26,6 +26,9 @@ schedule:
 sponsors:
   description: ''
   organizations:
+  - name: SnowEx
+    website: ''
+    logo_url: https://snowex-2022.hackweek.io/_static/logo.png
   - name: eScience Institute
     website: ''
     logo_url: https://escience.washington.edu/wp-content/uploads/2015/10/Logo_eScience-stacked.png
