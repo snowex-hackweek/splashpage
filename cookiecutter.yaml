@@ -27,10 +27,10 @@ sponsors:
   description: ''
   organizations:
   - name: SnowEx
-    website: ''
+    website: https://snow.nasa.gov/campaigns/snowex
     logo_url: https://snowex-2022.hackweek.io/_static/logo.png
   - name: eScience Institute
-    website: ''
+    website: https://escience.washington.edu/
     logo_url: https://escience.washington.edu/wp-content/uploads/2015/10/Logo_eScience-stacked.png
   - name: Cryo Cloud
     website: https://book.cryointhecloud.com/intro.html
