@@ -1,14 +1,16 @@
 repo_directory: html
 name: SnowEx Hackweek
-about: Hackweeks are participant-driven events that strive to create welcoming spaces
-  for participants to learn new things, build community and gain hands-on experience
-  with collaboration and team science
-hackweek_mission: https://uwhackweek.github.io/hackweeks-as-a-service/mission.html
 banner:
-  title: SnowEx Hackweek
-  description: In person, collaborative learning events.
-  year: ""
-  location: Seattle, WA
+  description: Tutorials + peer-to-peer learning + project based teamwork using NASA's SnowEx data.
+  start_date: 19
+  end_date: 23 Aug
+  year: 2024
+  location: In Person on the University of Washington campus, Seattle, WA
+  image: https://geohackweek.github.io/assets/images/banner.jpg
+about:
+  description:
+    "We are in the early stages of organizing a third event as part of this series, and we need your help! Consider joining the ICESat-2 hackweek organizing team. We will partner with you to design tutorials and projects, and provide a variety of professional development opportunities along the way. Click on the button below to learn more:"
+  learn_more: https://escience.notion.site/UW-Hackweek-Organizing-Team-Application-b7e5742a4c7e4cad8b4ece80ee171ab0
   links:
   - url: https://snowex-2022.hackweek.io/
     title: 2022 Hackweek
@@ -16,8 +18,7 @@ banner:
   - url: https://snowex-2021.hackweek.io/
     title: 2021 Hackweek
     new_window: true
-  image: https://geohackweek.github.io/assets/images/banner.jpg
-applicant_info: ""
+applicant_info: Right now we are only accepting applications for our Organizing Team. However, we would still like to hear from you if you are interested in attending as a participant! Applications for participants will open in early April. Click on the button below and we will be sure to email you as soon as the application form is available.
 team:
   !include book/team.yaml
 schedule:
@@ -25,9 +26,15 @@ schedule:
 sponsors:
   description: ''
   organizations:
+  - name: SnowEx
+    website: https://snow.nasa.gov/campaigns/snowex
+    logo_url: https://snowex-2022.hackweek.io/_static/logo.png
   - name: eScience Institute
-    website: ''
+    website: https://escience.washington.edu/
     logo_url: https://escience.washington.edu/wp-content/uploads/2015/10/Logo_eScience-stacked.png
+  - name: Cryo Cloud
+    website: https://book.cryointhecloud.com/intro.html
+    logo_url: https://book.cryointhecloud.com/_static/logo.png
 footer:
   social:
   - icon: github
