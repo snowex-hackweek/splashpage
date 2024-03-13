@@ -1,7 +1,7 @@
 repo_directory: html
 name: SnowEx Hackweek
 banner:
-  description: Tutorials + peer-to-peer learning + project based teamwork using NASA's SnoEx data.
+  description: Tutorials + peer-to-peer learning + project based teamwork using NASA's SnowEx data.
   start_date: 19
   end_date: 23 Aug
   year: 2024
