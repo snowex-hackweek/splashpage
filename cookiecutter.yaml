@@ -1,35 +1,24 @@
 repo_directory: html
 name: SnowEx Hackweek
 banner:
-  description: In person, collaborative learning events.
+  description: Tutorials + peer-to-peer learning + project based teamwork using NASA's SnoEx data.
   start_date: 19
   end_date: 23 Aug
   year: 2024
-  location: Seattle, WA
+  location: In Person on the University of Washington campus, Seattle, WA
   image: https://geohackweek.github.io/assets/images/banner.jpg
 about:
   description:
-    "We are in early stages to organize a third event as part of this series.
-    Currently we are actively seeking volunteers from the community to help plan
-    and execute the event. There are three possible roles to help out:
-    <ul>
-      <li>Tutorial Leads</li>
-      <li>Project Coordinator</li>
-      <li>Project Lead</li>
-      <li>Project Helper</li>
-    </ul>
-    Visit the <a target=\"_blank\" href=\"https://escience.notion.site/UW-Hackweek-Organizing-Team-Application-b7e5742a4c7e4cad8b4ece80ee171ab0\">
-    information page<a/> to learn more about this year's event.
-    "
-  learn_more: https://escience.washington.edu/using-data-science/hackweeks/
+    "We are in the early stages of organizing a third event as part of this series, and we need your help! Consider joining the ICESat-2 hackweek organizing team. We will partner with you to design tutorials and projects, and provide a variety of professional development opportunities along the way. Click on the button below to learn more:"
+  learn_more: https://escience.notion.site/UW-Hackweek-Organizing-Team-Application-b7e5742a4c7e4cad8b4ece80ee171ab0
   links:
-    - url: https://snowex-2022.hackweek.io/
-      title: 2022 Hackweek
-      new_window: true
-    - url: https://snowex-2021.hackweek.io/
-      title: 2021 Hackweek
-      new_window: true
-# applicant_info:
+  - url: https://snowex-2022.hackweek.io/
+    title: 2022 Hackweek
+    new_window: true
+  - url: https://snowex-2021.hackweek.io/
+    title: 2021 Hackweek
+    new_window: true
+applicant_info: Right now we are only accepting applications for our Organizing Team. However, we would still like to hear from you if you are interested in attending as a participant! Applications for participants will open in early April. Click on the button below and we will be sure to email you as soon as the application form is available.
 team:
   !include book/team.yaml
 schedule:
