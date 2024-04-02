@@ -9,8 +9,8 @@ banner:
   image: https://geohackweek.github.io/assets/images/banner.jpg
 about:
   description:
-    "We are in the early stages of organizing a third event as part of this series, and we need your help! Consider joining the ICESat-2 hackweek organizing team. We will partner with you to design tutorials and projects, and provide a variety of professional development opportunities along the way. Click on the button below to learn more:"
-  learn_more: https://escience.notion.site/UW-Hackweek-Organizing-Team-Application-b7e5742a4c7e4cad8b4ece80ee171ab0
+    "We are now accepting applications for hackweek participants."
+  learn_more: https://event.hackweek.io/
   links:
   - url: https://snowex-2022.hackweek.io/
     title: 2022 Hackweek
@@ -18,7 +18,6 @@ about:
   - url: https://snowex-2021.hackweek.io/
     title: 2021 Hackweek
     new_window: true
-applicant_info: Right now we are only accepting applications for our Organizing Team. However, we would still like to hear from you if you are interested in attending as a participant! Applications for participants will open in early April. Click on the button below and we will be sure to email you as soon as the application form is available.
 team:
   !include book/team.yaml
 schedule:

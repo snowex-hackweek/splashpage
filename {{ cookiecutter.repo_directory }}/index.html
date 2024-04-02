@@ -146,7 +146,7 @@
             <a class="btn btn-secondary btn-lg"
                href="{{ cookiecutter.about.learn_more }}"
                target="_blank">
-                Organizing Team Information
+                Participant Information
                 <i class="fas fa-external-link-alt"></i>
             </a>
         </div>
@@ -155,9 +155,9 @@
         </div>    
         <div class="about-cta text-center mb-4">
             <a class="btn btn-secondary btn-lg"
-            href="https://washington.co1.qualtrics.com/jfe/form/SV_2mCdfajojmtDIBo"
+            href="https://uwashington.qualtrics.com/jfe/form/SV_3z4PnQHlT9Dsgia"
             target="_blank">
-             Apply to the Organizing Team
+             Apply to the Participate
              <i class="fas fa-external-link-alt"></i>
          </a>
         </div>
@@ -178,26 +178,27 @@
             </div>
         {%- endif %}
     </div>
-
-    <div class="media-block theme-bg-primary py-5">
-        <div class="container">
-            <h4 class="text-white text-center mb-3">
-                Information for Participants
-            </h4>
-            <div
-                class="section-intro text-center single-col-max mx-auto text-white mb-5">
-                {{cookiecutter.applicant_info}}
-                <div class="about-cta text-center mb-4"></div>
-                    <a class="btn btn-primary btn-lg mb-3 mx-2"
-                    href="https://forms.fillout.com/t/fvDozLe31gus"
-                    target="_blank">
-                    Participant Interest Form
-                    <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>    
+    {%- if 'applicant_info' in cookiecutter %}
+        <div class="media-block theme-bg-primary py-5">
+            <div class="container">
+                <h4 class="text-white text-center mb-3">
+                    Information for Participants
+                </h4>
+                <div
+                    class="section-intro text-center single-col-max mx-auto text-white mb-5">
+                    {{cookiecutter.applicant_info}}
+                    <div class="about-cta text-center mb-4"></div>
+                        <a class="btn btn-primary btn-lg mb-3 mx-2"
+                        href="https://forms.fillout.com/t/fvDozLe31gus"
+                        target="_blank">
+                        Participant Interest Form
+                        <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>    
+                </div>
             </div>
         </div>
-    </div>
+    {%- endif %}
 </section>
 
 <!--//about-section-->
