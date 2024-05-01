@@ -8,8 +8,7 @@ banner:
   location: In Person on the University of Washington campus, Seattle, WA
   image: https://geohackweek.github.io/assets/images/banner.jpg
 about:
-  description:
-    "We are now accepting applications for hackweek participants."
+  description: ''
   learn_more: https://event.hackweek.io/
   links:
   - url: https://snowex-2022.hackweek.io/
