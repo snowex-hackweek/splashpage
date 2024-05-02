@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+    {%- if 'redirect' in cookiecutter %}
+    <meta http-equiv="refresh" content="0; {{cookiecutter.redirect.url}}">
+    <script>
+         window.location.replace("{{cookiecutter.redirect.url}}");
+    </script>
+    {% endif %}
     <title>{{ cookiecutter.name }}</title>
 
     <!-- Meta -->
@@ -28,11 +34,6 @@
             background-size: cover;
         }
     </style>
-    {%- if 'redirect' in cookiecutter %}
-        <script>
-             window.location.replace("{{cookiecutter.redirect.url}}");
-        </script>
-    {% endif %}
 </head>
 
 <body>
