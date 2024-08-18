@@ -11,6 +11,9 @@ about:
   description: ''
   learn_more: https://event.hackweek.io/
   links:
+  - url: https://snowex-2024.hackweek.io/
+    title: 2024 Hackweek
+    new_window: true
   - url: https://snowex-2022.hackweek.io/
     title: 2022 Hackweek
     new_window: true
