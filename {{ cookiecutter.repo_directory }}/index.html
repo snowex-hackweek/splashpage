@@ -105,15 +105,15 @@
             <h1 class="hero-heading mb-2">
                 {{ cookiecutter.name }} {{ cookiecutter.banner.year }}
             </h1>
+            {%- if (cookiecutter.banner.year|length) > 0 %}
             <div class="hero-meta mb-3">
                 <i class="far fa-calendar-alt me-2"></i>
-                {{ cookiecutter.banner.start_date }} - {{
-                cookiecutter.banner.end_date }}
+                {{ cookiecutter.banner.start_date }} - {{cookiecutter.banner.end_date }}
                 <i class="fas fa-map-marker-alt mx-2"></i>
                 {{ cookiecutter.banner.location }}
             </div>
-            <div class="hero-intro mb-4">{{ cookiecutter.banner.description
-                }}
+            {%- endif %}
+            <div class="hero-intro mb-4">{{ cookiecutter.banner.description}}
             </div>
             {%- if 'links' in cookiecutter.banner %}
             <div class="hero-cta">
